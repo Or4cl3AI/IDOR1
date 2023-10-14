@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-level Requirements</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <h1>High-level Requirements</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Simulate IDOR attacks via injection of malicious parameters</h2>
+            <p>Inject malicious parameters to simulate Insecure Direct Object Reference (IDOR) attacks. Support different attack scenarios and severities.</p>
+            <img src="images/attack_mockup.png" alt="Attack Mockup">
+        </section>
+        <section>
+            <h2>Detect attempted attacks and log details to a database</h2>
+            <p>Save attack details to a PostgreSQL database. Generate logs for viewing in the admin dashboard.</p>
+            <img src="images/logs_mockup.png" alt="Logs Mockup">
+        </section>
+        <section>
+            <h2>Authenticate and authorize users to restrict access to data</h2>
+            <p>Implement JSON Web Token (JWT) authentication. Store encrypted user passwords in the database. Add signup/login endpoints to the API.</p>
+            <img src="images/login_mockup.png" alt="Login Mockup">
+        </section>
+        <section>
+            <h2>Present interactive dashboards for admins and testers</h2>
+            <p>Create React dashboard interfaces for admins and testers. Consume Spring Boot API endpoints. Validate and sanitize user input.</p>
+            <img src="images/dashboard_mockup.png" alt="Dashboard Mockup">
+        </section>
+        <section>
+            <h2>Implement additional validation and authorization checks</h2>
+            <p>Implement additional validation and authorization checks to ensure secure architecture and coding standards.</p>
+            <img src="images/validation_mockup.png" alt="Validation Mockup">
+            <img src="images/authorization_mockup.png" alt="Authorization Mockup">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 High-level Requirements. All rights reserved.</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
