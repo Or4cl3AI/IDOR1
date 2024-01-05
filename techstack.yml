@@ -1,7 +1,8 @@
 repo_name: Or4cl3AI/IDOR1
 report_id: 60c4dbde539c2d6002a9fabb0a5ccf03
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-24T01:57:12+00:00'
+timestamp: '2024-01-05T08:34:18+00:00'
 requested_by: Or4cl3AI
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Or4cl3AI/IDOR1
   detection_source: Repo Metadata
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Or4cl3AI/IDOR1
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Or4cl3AI/IDOR1
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -44,6 +48,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/IDOR1
   detection_source: Repo Metadata
 - name: Apache Camel
   description: A versatile open source integration framework
@@ -54,6 +59,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/Or4cl3AI/IDOR1/blob/main/src/main/resources/application.properties
   detection_source: src/main/resources/application.properties
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-10-14 06:38:01.000000000 Z
@@ -63,6 +69,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/Or4cl3AI/IDOR1/blob/main/src/main/resources/static/index.html
   detection_source: src/main/resources/static/index.html
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-10-14 06:38:01.000000000 Z
